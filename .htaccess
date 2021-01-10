@@ -1,5 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^twixgi27.beget.tech$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.twixgi27.beget.tech$
-RewriteCond %{REQUEST_URI} !public/
-RewriteRule (.*) /public/$1 [L]
